@@ -1,0 +1,114 @@
+* {
+  border-radius: 0 !important;
+}
+body {
+  margin-top: 25px;
+  font-family: "din-condensed-web",sans-serif;
+  font-size: 24px;
+  color: #414042;
+}
+/* VERTICAL NAV */ 
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+  }
+  .sidebar-nav .navbar .navbar-collapse {
+    font-family: "din-condensed-web",sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 900;
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    margin-left: 20px;
+    margin-top: 20px;
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-shadow: none;
+  }
+}
+
+/* MESSAGES */
+#declarations { 
+  list-style-type: none; 
+  margin: 0; 
+  padding: 0;
+  color: #ffcb01; 
+  font-size: 30px;
+  line-height: 1.1em;
+  letter-spacing: 1px;
+}
+#declarations li { 
+  margin-bottom: 20px;
+}
+
+.tweet-vibes{
+  color: #777777;
+}
+
+.manifesto h1{
+  font-family: "adelle",serif;
+  font-size: 48px;
+  letter-spacing: 0em;
+  line-height: 1.2em;
+  font-weight: 700;
+  margin: -5px 0 30px 0;
+  padding:0;
+  color: #000000;
+}
+
+small { 
+  font-size:18px;
+  padding:0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #bcbec0;
+}
+
+.modal-content {
+  border-radius: 0;
+  border: none;
+  padding: 25px;
+}
+
+.modal-header{
+  margin-bottom: 5px;
+  padding: 0 15px 15px 15px;
+  border-bottom: none;
+}
+
+.modal-backdrop.in {
+  opacity: .85;
+}
+
+.modal-header .close {
+  font-size: 36px;
+}
+
+.form-control{
+  font-size: 24px;
+}
+
+.modal-manifest {
+  font-family: "adelle",serif;
+  font-size: 36px;
+  line-height: 1em;
+  font-weight: 700;
+  color: #000000;
+}
+
+
