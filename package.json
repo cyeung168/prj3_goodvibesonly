@@ -1,0 +1,12 @@
+{
+  "name": "prj3_goodvibesonly",
+  "version": "1.0.0",
+  "description": "GA-SF-WDI-16: Cynthia Yeung Final Project – Daily stream of good vibes only",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Cynthia Yeung",
+  "license": "ISC"
+}
